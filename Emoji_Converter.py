@@ -4,4 +4,10 @@ message = input("> ")
 # Track words in user's message
 words = message.split(" ")
 
-print (words)
+# Emoji Library
+emoji = {
+    ":)": "😊",
+    ":(": "😟",
+    "B)": "😎",
+    "<3": "❤️"
+}
